@@ -1,0 +1,246 @@
+
+body{
+    background-image: url("image.avif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+h1{
+    color: white;
+}
+input::placeholder{
+    color: white;
+    font-size: 15px;
+  }
+input{
+    width: 100%;
+}
+.form-group{
+    display: flex;
+}
+.content img{
+height: 100%;
+width: 300px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.log-in{
+   margin-right: 500px;
+}
+
+.content{
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px 5px rgb(243, 237, 237),
+               -3px -3px 5px 5px rgb(240, 213, 213);
+   background-color: black;
+   color: white;
+   width: 600px;
+   display: flex;
+   border-radius: 15px;
+}
+
+input{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.form-text{
+    border: none;
+    border-bottom: 1px solid green;
+    display: block;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.submit{
+    height: 30px;
+    width: 200px;
+    background-color: green;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+.submit:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: orange;
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+margin-top: 20px;
+font-size: 20px;
+color: white;
+}
+
+@media(max-width:567px){
+    .container{
+        width: 300px;
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.content{
+        display: block;
+        width: 100%;
+        justify-content: center;
+  }
+  h1{
+    display: block;
+    width: 90%;
+    }
+.content.img{
+    width: 100;
+}
+.img img{
+    margin-left: 30px;
+}
+
+.input[type=text]{
+    width: 350px
+}
+.input[type=password]{
+    width: 350px
+}
+.content form{
+    width: 100%;
+text-align: center;
+}
+.form-text{
+    margin-left: 60px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-image: url("image.avif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+.container{
+    height: 400px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    }
+
+.username{
+    margin-left: 20px;
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 40px;
+    outline: none;
+
+}
+input::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.password{
+    margin-left: 20px;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+.username{
+border: none;
+border-bottom: 2px solid white;
+font-size: 30px;
+color: white;
+}
+.password{
+border: none;
+border-bottom: 2px solid white;
+font-size: 30px;
+color: white;
+}
+input[type=text]{
+    margin-left: 40px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+}
+input[type=password]{
+    margin-left: 40px;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+i{
+    font-size: 15px;
+    margin-left: 40px;
+}
+input[type=checkbox]{
+    margin-top: 50px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.submit{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    width: 300px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.submit:hover{
+    background-color: black;
+    color: yellowgreen;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 20px;
+}
+input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}*/
